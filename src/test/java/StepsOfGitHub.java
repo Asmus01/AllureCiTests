@@ -22,8 +22,7 @@ public class StepsOfGitHub {
     @DisplayName("Создание Issue для авторизованного пользователя")
     @Story("Создание Issue")
     @Issue("")
-    public void testStaticLabels() {
-    }
+
 
     @Step("Открываем страницу сайта Github")
     public void openSiteGitHub() {

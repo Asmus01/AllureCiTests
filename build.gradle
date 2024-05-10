@@ -41,3 +41,14 @@ dependencies {
 test {
     useJUnitPlatform{}
 }
+task simple_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("simple")
+    }
+}
+
+task remote_test(type: Test) {
+    useJUnitPlatform {
+        includeTags("remote")
+    }
+}
