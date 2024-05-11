@@ -16,7 +16,7 @@ public class TestBase {
 
 //        Configuration.browser = "firefox";
         Configuration.browserSize = "1100x1080";
-        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
+//        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
         Configuration.browser = "chrome";
         Configuration.browserVersion = "100.0";
 
