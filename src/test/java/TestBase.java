@@ -14,20 +14,20 @@ public class TestBase {
     @BeforeAll
     static void setUp() {
 
-//        Configuration.browser = "firefox";
+        Configuration.browser = "firefox";
         Configuration.browserSize = "1100x1080";
 //        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
-        Configuration.browser = "chrome";
-        Configuration.browserVersion = "100.0";
+//        Configuration.browser = "chrome";
+//        Configuration.browserVersion = "100.0";
 
-        DesiredCapabilities capabilities = new DesiredCapabilities();
-
-        capabilities.setCapability("selenoid:options", new HashMap<String, Object>() {{
-
-            put("enableVNC", true);
-            put("enableVideo", true);
-        }});
-        Configuration.browserCapabilities = capabilities;
+//        DesiredCapabilities capabilities = new DesiredCapabilities();
+//
+//        capabilities.setCapability("selenoid:options", new HashMap<String, Object>() {{
+//
+//            put("enableVNC", true);
+//            put("enableVideo", true);
+//        }});
+//        Configuration.browserCapabilities = capabilities;
 
     }
     @BeforeEach
