@@ -36,7 +36,7 @@ class BestContributorToSelenide extends TestBase {
 
     @Test
     @Tag("remote")
-    void solntsevShouldBeTheTopContributor() {
+     void solntsevShouldBeTheTopContributor() {
 
         open("https://github.com/selenide/selenide");
         $(".BorderGrid").$(byText("Contributors")).ancestor(".BorderGrid-row")

@@ -16,10 +16,11 @@ public class TestBase {
     static void setUp() {
 
 //        Configuration.browser = "firefox";
+//        "http://127.0.0.1:4444/wd/hub"  // локальный Selenoid
         Configuration.browserSize = "1100x1080";
-        Configuration.remote = "https://user1:1234@selenoid.autotests.cloud/wd/hub";
-        Configuration.browser = "chrome";
-        Configuration.browserVersion = "100.0";
+        Configuration.remote = "http://127.0.0.1:4444/wd/hub";
+        Configuration.browser = "firefox";
+        Configuration.browserVersion = "124.0";
 
         DesiredCapabilities capabilities = new DesiredCapabilities();
 
