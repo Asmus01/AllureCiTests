@@ -34,7 +34,8 @@ dependencies {
             "org.junit.jupiter:junit-jupiter:5.10.2",
             "org.slf4j:slf4j-simple:2.0.6",
             "com.github.javafaker:javafaker:1.0.2",
-            "io.qameta.allure:allure-selenide:2.27.0"
+            "io.qameta.allure:allure-selenide:2.27.0",
+            'io.github.bonigarcia:webdrivermanager:5.8.0' // решает проблему с совместимостью драйверов
     )
 }
 
